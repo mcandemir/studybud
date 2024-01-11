@@ -23,10 +23,30 @@ StudyBud is a website where you can create chat rooms about your favorite topic,
 ![Alt text](previewimg/image-5.png)
 
 
-### Get the code
+### Get the code, install requirements, run the server
 ```shell
 $ git clone https://github.com/mcandemir/studybud.git
+$ cd studybud
+$ pip install -r requirements.txt
+$ python manage.py runserver
 ```
+
+
+### Pull and Run the image directly:
+```shell
+$ docker pull mcandemir/studybud
+$ docker run -p 8000:8000 mcandemir/studybud
+# go to: http://localhost:8000/
+```
+
+
+### Build and Run with Docker:
+```shell
+$ docker build -t studybud
+$ docker run -p 8000:8000 studybud
+# go to: http://localhost:8000/
+```
+
 
 ### Default Profiles in Database:
     username mail: can@email.com
@@ -37,6 +57,7 @@ $ git clone https://github.com/mcandemir/studybud.git
 
     username mail: eric@email.com
     password: Django1230
+
 
 
 ### Original Django Tutorial Project:
