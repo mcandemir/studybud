@@ -37,3 +37,9 @@ $ git clone https://github.com/mcandemir/studybud.git
 
     username mail: eric@email.com
     password: Django1230
+
+
+### Original Django Tutorial Project:
+https://www.youtube.com/watch?v=PtQiiknWUcI
+
+https://github.com/divanov11/StudyBud/
