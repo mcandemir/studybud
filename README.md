@@ -59,6 +59,10 @@ $ docker run -p 8000:8000 studybud
     password: Django1230
 
 
+### TODO:
+- [x] Dockerize the project and publish on Dockerhub.
+- [] Replace SQL database with MongoDB
+
 
 ### Original Django Tutorial Project:
 https://www.youtube.com/watch?v=PtQiiknWUcI
