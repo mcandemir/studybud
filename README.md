@@ -61,7 +61,7 @@ $ docker run -p 8000:8000 studybud
 
 ### TODO:
 - [x] Dockerize the project and publish on Dockerhub.
-- [] Replace SQL database with MongoDB
+- [ ] Replace SQL database with MongoDB
 
 
 ### Original Django Tutorial Project:
